@@ -26,7 +26,7 @@
             </div>
             <div>
               <!-- Will need to finish the controller later -->
-              <button onclick="app.SnacksController" class="btn btn-outline-light m-2">Add .25</button>
+              <button onclick="app.SnacksController.addQuarter()" class="btn btn-outline-light m-2">Add .25</button>
             </div>
           </div>
         </div>
@@ -36,8 +36,8 @@
 
   <main>
     <div class="container">
-      <section class="row">
-        <div class="col-md-4 my-2">
+      <section id="snacks-list" class="row">
+        <!-- <div class="col-md-4 my-2">
           <div class="bg-black text-light rounded-3">
             <img class="rounded" src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lasagna">
             <div class="d-flex justify-content-between align-items-center">
@@ -50,15 +50,26 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
     </div>
 
   </main>
 
-  <footer class="text-bg-dark">
-    <div class="text-center">
-      <p class="mb-0"><small>© 2025 vendr. All Rights reserved.</small></p>
+  <footer>
+    <div class="container-fluid">
+      <section class="row justify-content-end">
+        <div class="col-md-3 p-0">
+          <div class="bg-black text-light d-flex flex-column align-items-center justify-content-between">
+            <h2>Money:</h2>
+            <p >$<span id="money-total">0.00</span></p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="d-flex justify-content-between align-items-center">
+      <p class="mb-0 text-center w-100"><small>© 2025 vendr. All Rights reserved.</small></p>
+      <p onclick="app.SnacksController.addFranklin()" class="text-white cheat-button">Cheat</p>
     </div>
   </footer>
 
