@@ -17,7 +17,7 @@ snacks = [
     imgUrl: 'https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }),
   new Snack({
-    name: 'SpaPeggy And Meatballs',
+    name: 'SpaPeggy',
     price: 4.00,
     imgUrl: 'https://images.unsplash.com/photo-1635264685671-739e75e73e0f?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }),
@@ -49,6 +49,9 @@ snacks = [
  ]
  
  money = 0
+
+ /** @type {Snack[]} */
+ snackList = [];
 
 }
 

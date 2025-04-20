@@ -1,8 +1,15 @@
 /* BASIC STYLES HERE */
-body {
+/* body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+} */
+
+p {
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 /* main {
@@ -13,7 +20,7 @@ body {
 } */
 
 img {
-  height: 200px;
+  height: 150px;
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -30,3 +37,13 @@ img {
   justify-content: start;
   align-items: end;
 }
+
+/* REVIEW: This helped make it where I didn't scroll, but I couldn't click Add to Cart on the bottom. I've could have done was add 4 in a row but wondering if there's a solution to it. */
+/* @media screen and (min-width: 768px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+} */

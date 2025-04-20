@@ -41,6 +41,7 @@ export class SnacksController {
         snackService.addQuarter();
     }
 
+    // Method to CHEAT!!
     addFranklin(){
         snackService.addFranklin();
     }
@@ -51,5 +52,4 @@ export class SnacksController {
         const moneyElement = document.getElementById('money-total');
         moneyElement.innerText = AppState.money.toFixed(2);
     }
-
 }
