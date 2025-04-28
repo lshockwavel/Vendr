@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="https://emojipedia.org/_next/image?url=https%3A%2F%2Fis.zobj.net%2Fimage-server%2Fv1%2Fimages%3Fr%3Dx9iMNZ3SZTN3-kcUHtQIG1RCU6FIepmdXXIRevfYokexbHcfZRzRqU-B92TTRPsv_ooUfYOE77mFxMDwuz3pJ-P2QrGyk21PqU49ckMOlJO6yIevIPGrxIIoHyjc4nMsRqDql3Go3nwSCfIGTcYe3iSrb2eEcOb2E8AKJ1EsmRZ5IWfJX1EFYrmcGA8UCMUuqPBOCg9o1l945ng6zLciR6s1HMd8cwwTiHTosjg4ucJ986fG4cF8sHNglEM&w=256&q=75">
+  <link rel="icon"
+    href="https://emojipedia.org/_next/image?url=https%3A%2F%2Fis.zobj.net%2Fimage-server%2Fv1%2Fimages%3Fr%3Dx9iMNZ3SZTN3-kcUHtQIG1RCU6FIepmdXXIRevfYokexbHcfZRzRqU-B92TTRPsv_ooUfYOE77mFxMDwuz3pJ-P2QrGyk21PqU49ckMOlJO6yIevIPGrxIIoHyjc4nMsRqDql3Go3nwSCfIGTcYe3iSrb2eEcOb2E8AKJ1EsmRZ5IWfJX1EFYrmcGA8UCMUuqPBOCg9o1l945ng6zLciR6s1HMd8cwwTiHTosjg4ucJ986fG4cF8sHNglEM&w=256&q=75">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
@@ -68,22 +70,22 @@
   </main>
 
   <!-- REVIEW I wanted to be in one screen but I got this nasty scroll bar. What can I do? -->
-  <footer  class="position-sticky bottom-0">
+  <footer class="position-sticky bottom-0 custom-clicks">
     <div class="container-fluid">
       <section class="row justify-content-end">
         <div class="col-md-3 p-0">
           <div class="bg-black text-light d-flex flex-column align-items-center justify-content-between">
             <h2>Money:</h2>
-            <p >$<span id="money-total">0.00</span></p>
+            <p>$<span id="money-total">0.00</span></p>
           </div>
         </div>
       </section>
     </div>
     <div class="d-flex justify-content-between align-items-center">
-      <p class="mb-0 text-center w-100"><small>© 2025 vendr. All Rights reserved.</small></p>
-      <p onclick="app.SnacksController.addFranklin()" class="text-white cheat-button">Cheat</p>
+      <p onclick="app.SnacksController.addFranklin()" class="text-white cheat-button add-click">Cheat</p>
     </div>
   </footer>
+  <p class="mb-0 text-center w-100"><small>© 2025 vendr. All Rights reserved.</small></p>
 
   <!-- SECTION links for bootstrap, axios, and auth -->
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

@@ -28,7 +28,7 @@ img {
 
 /* Makes it behave like a button */
 .cheat-button {
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 #pop-toast-container {
@@ -36,6 +36,14 @@ img {
   flex-direction: column;
   justify-content: start;
   align-items: end;
+}
+
+.custom-clicks {
+  pointer-events: none;
+}
+
+.add-click {
+  pointer-events: all;
 }
 
 /* REVIEW: This helped make it where I didn't scroll, but I couldn't click Add to Cart on the bottom. I've could have done was add 4 in a row but wondering if there's a solution to it. */
